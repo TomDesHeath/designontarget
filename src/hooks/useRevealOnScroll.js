@@ -6,10 +6,8 @@ const useRevealOnScroll = (key) => {
       return undefined
     }
 
-    const elements = Array.from(document.querySelectorAll('.reveal-on-scroll'))
-
     if (!('IntersectionObserver' in window)) {
-      elements.forEach((el) => el.classList.add('is-visible'))
+      document.querySelectorAll('.reveal-on-scroll').forEach((el) => el.classList.add('is-visible'))
       return undefined
     }
 
@@ -25,16 +23,38 @@ const useRevealOnScroll = (key) => {
       { threshold: 0.15, rootMargin: '0px 0px -10% 0px' }
     )
 
-    requestAnimationFrame(() => {
-      elements.forEach((el) => {
+    const observeTargets = () => {
+      document.querySelectorAll('.reveal-on-scroll').forEach((el) => {
         if (el.classList.contains('is-visible')) {
           return
         }
-        observer.observe(el)
-      })
-    })
 
-    return () => observer.disconnect()
+        if (el.dataset.revealObserverAttached === 'true') {
+          return
+        }
+
+        observer.observe(el)
+        el.dataset.revealObserverAttached = 'true'
+      })
+    }
+
+    requestAnimationFrame(observeTargets)
+
+    let mutationObserver
+    if ('MutationObserver' in window) {
+      mutationObserver = new MutationObserver(observeTargets)
+      mutationObserver.observe(document.body, { childList: true, subtree: true })
+    }
+
+    return () => {
+      observer.disconnect()
+      if (mutationObserver) {
+        mutationObserver.disconnect()
+      }
+      document.querySelectorAll('.reveal-on-scroll').forEach((el) => {
+        delete el.dataset.revealObserverAttached
+      })
+    }
   }, [key])
 }
 

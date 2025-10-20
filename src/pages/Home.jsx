@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { services } from '../data/services'
 import { projects } from '../data/projects'
-import heroImage from '../assets/hero-placeholder.svg'
+import heroImage from '../assets/wayne.jpg'
 
 const Home = () => {
   const featuredServices = services.slice(0, 3)
