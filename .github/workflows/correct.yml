@@ -20,7 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NODE_VERSION: '20'
-      VITE_BASE: '/'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,12 +33,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build site
-        env:
-          VITE_BASE_URL: ${{ env.VITE_BASE }}
+      - name: Build site (supports Create React App or Vite)
+        # This step runs the project's build script, then copies the output from either "build" (CRA) or "dist" (Vite)
         run: |
           npm run build
-          cp -R dist _site
+          if [ -d "dist" ]; then
+            echo "Found Vite output in dist — copying to _site"
+            rm -rf _site || true
+            cp -R dist _site
+          elif [ -d "build" ]; then
+            echo "Found CRA output in build — copying to _site"
+            rm -rf _site || true
+            cp -R build _site
+          else
+            echo "ERROR: No build output folder found (expected 'dist' or 'build')"
+            ls -la
+            exit 1
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
