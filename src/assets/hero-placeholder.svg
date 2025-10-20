@@ -1,0 +1,17 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Design On Target hero placeholder</title>
+  <desc id="desc">Illustration of a renovated kitchen interior.</desc>
+  <rect width="640" height="480" fill="#f5eee7"/>
+  <rect x="48" y="112" width="544" height="260" rx="24" fill="#ffffff" stroke="#e7ddd5" stroke-width="4"/>
+  <rect x="96" y="168" width="160" height="160" rx="12" fill="#d78287" opacity="0.18"/>
+  <rect x="128" y="196" width="96" height="104" rx="10" fill="#b4232c" opacity="0.28"/>
+  <rect x="300" y="196" width="248" height="28" rx="10" fill="#263d42" opacity="0.12"/>
+  <rect x="300" y="244" width="192" height="24" rx="10" fill="#263d42" opacity="0.08"/>
+  <rect x="300" y="288" width="220" height="24" rx="10" fill="#b4232c" opacity="0.22"/>
+  <rect x="300" y="332" width="144" height="18" rx="9" fill="#3f565a" opacity="0.15"/>
+  <circle cx="540" cy="320" r="36" fill="#b4232c" opacity="0.35"/>
+  <circle cx="540" cy="320" r="18" fill="#b4232c"/>
+  <line x1="48" y1="390" x2="592" y2="390" stroke="#e7ddd5" stroke-width="6" stroke-linecap="round"/>
+  <rect x="96" y="104" width="448" height="24" rx="12" fill="#b4232c" opacity="0.12"/>
+</svg>
+

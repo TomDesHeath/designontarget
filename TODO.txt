@@ -1,0 +1,8 @@
+ [x] Whatsapp
+ [x] Thank you for submission
+ [ ] Dynamic
+
+ For Wayne
+  [ ] Services
+  [ ] Portfolio
+  [ ] Quotes
