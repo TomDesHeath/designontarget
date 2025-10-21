@@ -10,7 +10,7 @@ import ScrollToTop from './components/ScrollToTop'
 import './App.css'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout />}>
