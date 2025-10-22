@@ -1,0 +1,17 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project guidance blueprint illustration</title>
+  <desc id="desc">Floor plan with measurement markings and a guiding compass.</desc>
+  <rect width="360" height="240" rx="18" fill="#f4efe9"/>
+  <rect x="40" y="38" width="280" height="164" rx="16" fill="#ffffff" stroke="#d9cec0" stroke-width="3"/>
+  <rect x="72" y="70" width="94" height="54" rx="8" fill="#0f4d46" opacity="0.08"/>
+  <rect x="72" y="134" width="64" height="32" rx="6" fill="#d78287" opacity="0.3"/>
+  <rect x="182" y="70" width="94" height="58" rx="10" fill="#128c7e" opacity="0.18"/>
+  <rect x="206" y="140" width="82" height="28" rx="12" fill="#b4232c" opacity="0.22"/>
+  <path d="M110 70v114" stroke="#d7b99f" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8"/>
+  <path d="M72 112h94" stroke="#d7b99f" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8"/>
+  <circle cx="260" cy="108" r="22" fill="#25d366" opacity="0.2"/>
+  <path d="M260 88a20 20 0 1 0 20 20" stroke="#0f4d46" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M260 92v16l10 18" stroke="#b4232c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="260" cy="92" r="4" fill="#b4232c"/>
+  <rect x="56" y="188" width="248" height="12" rx="6" fill="#0f4d46" opacity="0.12"/>
+</svg>

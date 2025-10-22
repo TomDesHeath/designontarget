@@ -1,0 +1,20 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Retro shower suite illustration</title>
+  <desc id="desc">Retro bathroom palette with bath, shower screen and patterned tiles.</desc>
+  <rect width="360" height="240" rx="18" fill="#eef7f1"/>
+  <rect x="36" y="40" width="288" height="164" rx="18" fill="#ffffff" stroke="#d1e6d8" stroke-width="3"/>
+  <rect x="68" y="150" width="224" height="32" rx="14" fill="#25d366" opacity="0.22"/>
+  <rect x="68" y="106" width="120" height="46" rx="16" fill="#128c7e" opacity="0.2"/>
+  <rect x="206" y="86" width="78" height="94" rx="14" fill="#d78287" opacity="0.3"/>
+  <rect x="222" y="100" width="46" height="40" rx="8" fill="#ffffff" opacity="0.75"/>
+  <rect x="222" y="144" width="46" height="26" rx="8" fill="#ffffff" opacity="0.7"/>
+  <rect x="84" y="118" width="92" height="18" rx="9" fill="#ffffff" opacity="0.75"/>
+  <path d="M92 136h84c12 0 22 10 22 22v6c0 12-10 22-22 22H92c-12 0-22-10-22-22v-6c0-12 10-22 22-22Z" fill="#0f4d46" opacity="0.18"/>
+  <path d="M98 142h72" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+  <path d="M206 98h78" stroke="#0f4d46" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  <path d="M206 170h78" stroke="#0f4d46" stroke-width="4" stroke-linecap="round" opacity="0.2"/>
+  <circle cx="266" cy="92" r="10" fill="#25d366" opacity="0.5"/>
+  <circle cx="266" cy="92" r="4" fill="#25d366"/>
+  <path d="M74 188h212" stroke="#bcdcc7" stroke-width="6" stroke-linecap="round"/>
+  <rect x="56" y="188" width="248" height="12" rx="6" fill="#0f4d46" opacity="0.1"/>
+</svg>

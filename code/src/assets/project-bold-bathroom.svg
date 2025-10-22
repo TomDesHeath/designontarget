@@ -1,0 +1,17 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bold bathroom makeover illustration</title>
+  <desc id="desc">Statement vanity with copper accents and geometric tiling.</desc>
+  <rect width="360" height="240" rx="18" fill="#f4f0f6"/>
+  <rect x="36" y="40" width="288" height="164" rx="18" fill="#ffffff" stroke="#ded4eb" stroke-width="3"/>
+  <rect x="72" y="148" width="216" height="34" rx="14" fill="#88272d" opacity="0.18"/>
+  <rect x="96" y="82" width="72" height="96" rx="14" fill="#b4232c" opacity="0.3"/>
+  <rect x="188" y="82" width="84" height="96" rx="14" fill="#128c7e" opacity="0.16"/>
+  <rect x="110" y="100" width="44" height="22" rx="8" fill="#ffffff" opacity="0.75"/>
+  <rect x="202" y="100" width="56" height="18" rx="8" fill="#ffffff" opacity="0.7"/>
+  <rect x="202" y="128" width="56" height="42" rx="10" fill="#f8f2ec" stroke="#0f4d46" stroke-width="2" opacity="0.85"/>
+  <path d="M96 130h72" stroke="#fff7f3" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="254" cy="96" r="12" fill="#d78287" opacity="0.4"/>
+  <path d="M250 94h8l6 18" stroke="#88272d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M84 176h192" stroke="#d7cae6" stroke-width="6" stroke-linecap="round"/>
+  <rect x="60" y="188" width="240" height="12" rx="6" fill="#0f4d46" opacity="0.1"/>
+</svg>

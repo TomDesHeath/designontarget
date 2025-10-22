@@ -1,0 +1,15 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Open-plan kitchen conversion illustration</title>
+  <desc id="desc">Minimal living and kitchen layout with flowing archway.</desc>
+  <rect width="360" height="240" rx="18" fill="#f3f7f6"/>
+  <rect x="38" y="40" width="284" height="164" rx="20" fill="#ffffff" stroke="#d6e4e1" stroke-width="3"/>
+  <path d="M92 188c0-48 32-88 72-88s72 40 72 88" fill="#25d366" opacity="0.14"/>
+  <rect x="88" y="82" width="64" height="88" rx="18" fill="#128c7e" opacity="0.18"/>
+  <rect x="168" y="118" width="108" height="42" rx="14" fill="#263d42" opacity="0.15"/>
+  <rect x="188" y="94" width="64" height="18" rx="9" fill="#b4232c" opacity="0.2"/>
+  <path d="M120 84c-12 20-12 52 0 72" stroke="#0f4d46" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M120 84h108c18 0 28 16 28 32v16" stroke="#0f4d46" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+  <rect x="76" y="180" width="208" height="14" rx="7" fill="#0f4d46" opacity="0.1"/>
+  <circle cx="248" cy="104" r="14" fill="#d78287" opacity="0.32"/>
+  <circle cx="248" cy="104" r="6" fill="#d78287"/>
+</svg>

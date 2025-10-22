@@ -1,4 +1,7 @@
-import servicePlaceholder from '../assets/service-placeholder.svg'
+import serviceGuidance from '../assets/service-guidance.svg'
+import serviceKitchen from '../assets/service-kitchen.svg'
+import serviceBathroom from '../assets/service-bathroom.svg'
+import serviceCabinetry from '../assets/service-cabinetry.svg'
 
 export const services = [
   {
@@ -12,7 +15,7 @@ export const services = [
       'Hands-on craftsmen who stay with the project from start to finish',
     ],
     image: {
-      src: servicePlaceholder,
+      src: serviceGuidance,
       alt: 'Design On Target team reviewing a home alteration plan',
     },
   },
@@ -27,7 +30,7 @@ export const services = [
       'Stone countertop fabrication and installation',
     ],
     image: {
-      src: servicePlaceholder,
+      src: serviceKitchen,
       alt: 'Contemporary Port Elizabeth kitchen concept rendering',
     },
   },
@@ -42,7 +45,7 @@ export const services = [
       'Wetroom conversions with concealed drainage and ventilation',
     ],
     image: {
-      src: servicePlaceholder,
+      src: serviceBathroom,
       alt: 'Bathroom renovation illustration with copper detailing',
     },
   },
@@ -57,7 +60,7 @@ export const services = [
       'On-site fitting with attention to alignment and detailing',
     ],
     image: {
-      src: servicePlaceholder,
+      src: serviceCabinetry,
       alt: 'Custom joinery pieces crafted in the workshop',
     },
   },

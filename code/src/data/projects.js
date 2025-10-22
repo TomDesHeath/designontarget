@@ -1,4 +1,9 @@
-import projectPlaceholder from '../assets/project-placeholder.svg'
+import projectSeamlessLiving from '../assets/project-seamless-living.svg'
+import projectCompactKitchen from '../assets/project-compact-kitchen.svg'
+import projectShakerRefresh from '../assets/project-shaker-refresh.svg'
+import projectStoneUpgrade from '../assets/project-stone-upgrade.svg'
+import projectBoldBathroom from '../assets/project-bold-bathroom.svg'
+import projectRetroRevival from '../assets/project-retro-revival.svg'
 
 export const projects = [
   {
@@ -13,7 +18,7 @@ export const projects = [
       'Minimalist shelving to keep sightlines clean',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectSeamlessLiving,
       alt: 'Illustration of an open-plan kitchen renovation',
     },
   },
@@ -29,7 +34,7 @@ export const projects = [
       'Optimised plumbing and veggie storage by rear entrance',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectCompactKitchen,
       alt: 'Compact kitchen layout with tailored cabinetry',
     },
   },
@@ -45,7 +50,7 @@ export const projects = [
       'Crisp white uppers to balance the deep lower tone',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectShakerRefresh,
       alt: 'Kitchen refresh featuring shaker cabinetry',
     },
   },
@@ -61,7 +66,7 @@ export const projects = [
       'Upper cabinetry replaced to match refinished lowers',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectStoneUpgrade,
       alt: 'Kitchen worktop upgrade with new stone counters',
     },
   },
@@ -77,7 +82,7 @@ export const projects = [
       'Vintage safe refinished as a bespoke vanity stand',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectBoldBathroom,
       alt: 'Bathroom makeover with bold copper accents',
     },
   },
@@ -93,7 +98,7 @@ export const projects = [
       'Patterned floor tiles tie classic fixtures to new elements',
     ],
     image: {
-      src: projectPlaceholder,
+      src: projectRetroRevival,
       alt: 'Retro inspired bathroom renovation',
     },
   },
