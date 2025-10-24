@@ -1,7 +1,7 @@
-import serviceGuidance from '../assets/service-guidance.svg'
-import serviceKitchen from '../assets/service-kitchen.svg'
-import serviceBathroom from '../assets/service-bathroom.svg'
-import serviceCabinetry from '../assets/service-cabinetry.svg'
+import serviceGuidance from '../assets/service-guidance.jpg'
+import serviceKitchen from '../assets/service-kitchen.jpg'
+import serviceBathroom from '../assets/service-bathroom.jpg'
+import serviceCabinetry from '../assets/service-cabinetry.jpg'
 
 export const services = [
   {

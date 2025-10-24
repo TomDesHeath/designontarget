@@ -15,7 +15,7 @@ const Layout = () => {
             <img src={logoPlaceholder} alt="Design On Target logo" className="brand-logo" />
             <div className="brand-container">
               <span className="brand-text">Design On Target</span>
-              <div className="eyebrow" style={{margin:0}}>Where imagination meets function</div>
+              <div className="eyebrow" style={{margin:0}}>Imagination meets function</div>
             </div>
           </NavLink>
           <nav className="main-nav">

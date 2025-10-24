@@ -1,9 +1,9 @@
-import projectSeamlessLiving from '../assets/project-seamless-living.svg'
-import projectCompactKitchen from '../assets/project-compact-kitchen.svg'
-import projectShakerRefresh from '../assets/project-shaker-refresh.svg'
-import projectStoneUpgrade from '../assets/project-stone-upgrade.svg'
-import projectBoldBathroom from '../assets/project-bold-bathroom.svg'
-import projectRetroRevival from '../assets/project-retro-revival.svg'
+import projectSeamlessLiving from '../assets/project-seamless-living.jpg'
+import projectCompactKitchen from '../assets/project-compact-kitchen.jpg'
+import projectShakerRefresh from '../assets/project-shaker-refresh.jpg'
+import projectStoneUpgrade from '../assets/project-stone-upgrade.jpg'
+import projectBoldBathroom from '../assets/project-bold-bathroom.jpg'
+import projectRetroRevival from '../assets/project-retro-revival.jpg'
 
 export const projects = [
   {
