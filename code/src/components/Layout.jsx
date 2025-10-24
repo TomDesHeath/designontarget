@@ -13,7 +13,10 @@ const Layout = () => {
         <div className="header-inner">
           <NavLink to="/" className="brand-link">
             <img src={logoPlaceholder} alt="Design On Target logo" className="brand-logo" />
-            <span className="brand-text">Design On Target</span>
+            <div className="brand-container">
+              <span className="brand-text">Design On Target</span>
+              <div className="eyebrow" style={{margin:0}}>Where imagination meets function</div>
+            </div>
           </NavLink>
           <nav className="main-nav">
             <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : undefined)}>
@@ -40,14 +43,14 @@ const Layout = () => {
         <div className="footer-grid">
           <div className="reveal-on-scroll">
             <div className="brand-text footer-brand">Design On Target</div>
-            <p>Custom home alterations, kitchens, bathrooms, and joinery crafted for life in Port Elizabeth (Gqeberha).</p>
+            <p>Custom interior alterations, kitchens, bathrooms, and joinery crafted for life in Port Elizabeth (Gqeberha).</p>
           </div>
           <div className="reveal-on-scroll" style={{ '--reveal-index': 1 }}>
             <h4>Visit</h4>
             <p>
-              Essexvale Workshop · 2 Target Kloof Road<br />
-              WERK 2.0 Studio · 17 Horton Street<br />
-              Port Elizabeth (Gqeberha), 6001
+              Office · 2 Target Kloof Road<br />
+              Workshop · WERK 2.0 Studio · 17 Horton Street<br />
+              Port Elizabeth (Gqeberha)
             </p>
           </div>
           <div className="reveal-on-scroll" style={{ '--reveal-index': 2 }}>

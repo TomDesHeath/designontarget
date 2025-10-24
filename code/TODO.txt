@@ -1,6 +1,11 @@
  [x] Whatsapp
  [x] Thank you for submission
- [ ] Dynamic
+ [x] Dynamic
+ [ ] Modifications
+ [x] Interior alteration
+ [ ] Drywalling
+ [x] Workshop and Office
+ [x] Whatsapp in mobile
 
  For Wayne
   [ ] Services

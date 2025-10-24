@@ -18,9 +18,9 @@ const Contact = () => (
         <div className="details-card reveal-on-scroll">
           <h3>Studios & hours</h3>
           <p>
-            <strong>Essexvale Workshop:</strong> 2 Target Kloof Road, Port Elizabeth (Gqeberha), 6001
+            <strong>Essexvale Office:</strong> 2 Target Kloof Road, Port Elizabeth (Gqeberha)
             <br />
-            <strong>WERK 2.0 Studio:</strong> 17 Horton Street, Port Elizabeth, 6001
+            <strong>WERK 2.0 Workshop:</strong> 17 Horton Street, Port Elizabeth
           </p>
           <p>
             <strong>Hours:</strong> Weekdays 9:00–17:00 · Saturdays 9:00–13:00

@@ -105,7 +105,7 @@ const ContactForm = ({ context }) => {
           <option value="" disabled>
             Select an option
           </option>
-          <option value="alterations">Home alterations or extensions</option>
+          <option value="alterations">Interior alterations or extensions</option>
           <option value="kitchen">Kitchen remodel</option>
           <option value="bathroom">Bathroom renovation</option>
           <option value="joinery">Custom cabinetry or bespoke item</option>

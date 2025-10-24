@@ -5,8 +5,8 @@ import serviceCabinetry from '../assets/service-cabinetry.svg'
 
 export const services = [
   {
-    slug: 'home-alterations-project-guidance',
-    title: 'Home Alterations & Project Guidance',
+    slug: 'interior-alterations-project-guidance',
+    title: 'Interior Alterations & Project Guidance',
     description:
       'Design On Target partners with you from the concept conversation through final handover, coordinating joinery, finishes, and site work so every alteration feels cohesive.',
     highlights: [
@@ -16,7 +16,7 @@ export const services = [
     ],
     image: {
       src: serviceGuidance,
-      alt: 'Design On Target team reviewing a home alteration plan',
+      alt: 'Design On Target team reviewing a interior alteration plan',
     },
   },
   {
@@ -53,7 +53,7 @@ export const services = [
     slug: 'custom-cabinetry-bespoke-items',
     title: 'Custom Cabinetry & Bespoke Items',
     description:
-      'Precision-built cupboards, shelving, and standalone pieces produced in the Essexvale and Horton Street workshops to solve tricky spaces and showcase craftsmanship.',
+      'Precision-built cupboards, shelving, and standalone pieces produced in the Horton Street workshop to solve tricky spaces and showcase craftsmanship.',
     highlights: [
       'Tailored built-ins for kitchens, sculleries, and living areas',
       'Handmade furniture and display units finished to spec',

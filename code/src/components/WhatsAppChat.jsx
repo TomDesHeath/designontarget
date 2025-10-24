@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const PHONE_NUMBER = '27833244303'
 const DEFAULT_MESSAGE = encodeURIComponent(
-  "Hi Design On Target! I'd like to chat about a home alteration and would appreciate a call back."
+  "Hi Design On Target! I'd like to chat about an interior alteration and would appreciate a call back."
 )
 export const WHATSAPP_LINK = `https://wa.me/${PHONE_NUMBER}?text=${DEFAULT_MESSAGE}`
 

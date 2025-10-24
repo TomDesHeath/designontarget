@@ -11,11 +11,10 @@ const Home = () => {
     <div className="page home-page">
       <section className="hero reveal-on-scroll">
         <div className="hero-content">
-          <p className="eyebrow">Bespoke home alterations in Gqeberha, South Africa</p>
+          <p className="eyebrow">Bespoke alterations in Gqeberha, South Africa</p>
           <h1>Crafted kitchens, bathrooms, and joinery built around your life.</h1>
           <p className="hero-copy">
-            Design On Target transforms Port Elizabeth homes with tailored alterations, from layout changes and service coordination to custom cabinetry
-            produced in our Essexvale and Horton Street workshops.
+            Design On Target transforms Port Elizabeth homes with tailored alterations, from layout changes and service coordination to custom pieces.
           </p>
           <div className="hero-actions">
             <Link to="/contact" className="btn primary">
@@ -27,14 +26,14 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-media">
-          <img src={heroImage} alt="Stylised rendering of a renovated kitchen space" className="hero-image" />
+          <img src={heroImage} alt="Wayne, the founder" className="hero-image" />
           <div className="hero-stats">
             <div>
               <span className="metric">Gqeberha</span>
               <span className="label">Serving Port Elizabeth & Nelson Mandela Bay</span>
             </div>
             <div>
-              <span className="metric">2 workshops</span>
+              <span className="metric">2 workspaces</span>
               <span className="label">Target Kloof Road & Horton Street</span>
             </div>
             <div>
